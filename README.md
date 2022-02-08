@@ -20,11 +20,10 @@ Development Specific Details
 Clone CreditCardApplication Repo
 git clone https://github.com/puneetpandita/CreditCardApplication.git
 
-
 Run below maven command to compile project
 mvn clean install
 
-This is a ‘spring boot’ based web project running on maven repository. It includes JUnit test structures also.
+This is a â€˜spring bootâ€™ based web project running on maven repository. It includes JUnit test structures also.
 The project is set to a fixed authorization with CSRF disabled by default. User can set desired credentials in application.yml file and same needs to use for authorization during testing. A handler is enabled for CSRF token-based authorization as well. Refer SecurityConfig.java for enabling it. Once enabled user will need to specify CSRF token and Cookie in request header along with credentials.
 
 Deployment
